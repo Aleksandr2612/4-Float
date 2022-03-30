@@ -1,0 +1,151 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .container {
+            max-width: 1146px;
+            margin: auto;
+        }
+        
+        header {
+            background-image: url(../images/fone.png);
+            background-repeat: none;
+            background-size: cover;
+            box-sizing: border-box;
+            padding-bottom: 138px;
+            padding-top: 120px;
+        }
+        
+        main {
+            padding-top: 57px;
+            padding-bottom: 62px;
+        }
+        
+        .logo {
+            font-weight: 500px;
+            font-size: 54px;
+            line-height: 64px;
+            color: #003395;
+            font-weight: 500;
+        }
+        
+        .pargraf {
+            font-weight: 700px;
+            font-size: 18px;
+            line-height: 100%;
+            color: #000000;
+            font-weight: 700;
+            margin-top: 27px;
+        }
+        
+        nav {
+            padding-bottom: 27px;
+            padding-top: 27px;
+            background-color: #003395;
+        }
+        
+        nav a:hover {
+            background-color: aqua;
+        }
+        
+        nav a {
+            margin-right: 62px;
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            display: inline-block;
+            /* padding-top: 10px; */
+        }
+        
+        .left {
+            max-width: 754px;
+            display: inline-block;
+            margin-right: 26px;
+            vertical-align: top;
+        }
+        
+        .right {
+            width: 362px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .news {
+            border: solid 2px #330080;
+            margin-bottom: 56px;
+            padding: 19px 19px 26px 19px;
+        }
+        
+        .somelinks {
+            border: solid 2px #330080;
+            padding: 19px 19px 26px 19px;
+        }
+        
+        .news h2 {
+            padding: 14px 17px 14px 17px;
+            background-color: #24B0ff;
+            color: white;
+            font-weight: 700;
+            font-size: 27px;
+        }
+        
+        .news p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 16.2px;
+            margin: 14px;
+            line-height: 163%;
+        }
+        
+        .somelinks h2 {
+            padding: 14px 17px 14px 17px;
+            background-color: #24B0ff;
+            color: white;
+            font-weight: 700;
+            font-size: 27px;
+        }
+        
+        .somelinks ul {
+            line-height: 163%;
+            padding-top: 22px;
+            text-decoration-line: underline;
+            color: #30233d;
+            font-weight: 400;
+            font-size: 16.2px;
+        }
+        
+        .left h2 {
+            padding-top: 13px;
+            padding-bottom: 15px;
+            border-top: 2px solid #003395;
+            border-bottom: 2px solid #003395;
+            font-weight: 700;
+            color: #003395;
+            font-size: 27px;
+        }
+        
+        .left p {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            font-weight: 400;
+            font-size: 24px;
+            color: #30233d;
+        }
+        
+        footer {
+            background: linear-gradient(180deg, #003395 0%, #00205f 100%);
+            padding-top: 45px;
+            padding-bottom: 83px;
+            color: #fcfcfc;
+            text-align: right;
+        }
+        
+        .somelinks ul {
+            list-style: none;
+        }

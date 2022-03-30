@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: turquoise;
+}
+
+.logo img {
+    width: 70px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+nav li:first-child {
+    border-left: none;
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+}
+
+nav {
+    float: right;
+    margin: 40px;
+}
+
+header .container,
+.content .container {
+    overflow: auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.gradient {
+    background: linear-gradient(45deg, #ccc, lightblue);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.start {
+    display: inline-block;
+    padding: 15px 38px;
+    background-color: aqua;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+}
+
+.page {
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: rgba(76, 76, 162, 0.612);
+    padding: 60px 0;
+    text-align: right;
+}
+
+.content {
+    padding: 43px 0;
+}
+
+.start:active {
+    background: red;
+}
+
+h1::before {
+    content: 'Hello';
+    display: block;
+    color: red;
+}
+
+h1::after {
+    /* content: ''; */
+    /* content: url(../images/icon.svg); */
+    content: '\2605';
+    display: block;
+    width: 100px;
+    height: 60px;
+    background: violet;
+}
+
+
+/* main .content {
+    overflow: auto;
+} */
